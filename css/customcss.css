@@ -1,40 +1,34 @@
-/* Customize the nav-justified links to be fill the entire space of the .navbar */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
-.nav-justified {
-  background-color: #eee;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
 }
-.nav-justified > li > a {
-  margin-bottom: 0;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #777;
-  font-weight: bold;
-  text-align: center;
-  border-bottom: 1px solid #d5d5d5;
-  background-color: #e5e5e5; /* Old browsers */
-  background-repeat: repeat-x; /* Repeat the gradient */
-  background-image: -moz-linear-gradient(top, #f5f5f5 0%, #e5e5e5 100%); /* FF3.6+ */
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
-  background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Chrome 10+,Safari 5.1+ */
-  background-image: -o-linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* Opera 11.10+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
-  background-image: linear-gradient(top, #f5f5f5 0%,#e5e5e5 100%); /* W3C */
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
 }
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus {
-  background-color: #ddd;
-  background-image: none;
-  box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
 }
-.nav-justified > li:first-child > a {
-  border-radius: 5px 5px 0 0;
-}
-.nav-justified > li:last-child > a {
-  border-bottom: 0;
-  border-radius: 0 0 5px 5px;
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
@@ -44,7 +38,6 @@
 /* Carousel base class */
 .carousel {
   height: 500px;
-  width: 900px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -61,6 +54,95 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 900px;
+  min-width: 100%;
   height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-left:  0;
+    padding-right: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
 }
