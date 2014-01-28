@@ -109,6 +109,23 @@ body {
   margin-top: -10px;
 }
 
+/* Photos
+------------------------ */
+
+.carriegrubbphoto {
+  /*width: 500px;*/
+  /*height: 500px;*/
+}
+
+.fish {
+  width: 140px;
+  height: 140px;
+}
+
+.tiger {
+  width: 140px;
+  height: 140px;
+}
 
 
 /* RESPONSIVE CSS
