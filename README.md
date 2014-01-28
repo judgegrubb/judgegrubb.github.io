@@ -1,7 +1,7 @@
 judgegrubb.github.io
 ====================
 
-## This is a webpage I am building for my mother's business
+## This is a webpage I am building for my mother
 
 I am using bootstrap and basic html/css/javascript skills to build out this webpage.
 
