@@ -1,11 +1,6 @@
 judgegrubb.github.io
 ====================
 
-## This is a webpage I am building for my mother
+## This is my personal landing page
 
-I am using bootstrap and basic html/css/javascript skills to build out this webpage.
-
-There is nothing spectacular going on here. If you take some code, just make sure you cite me [judgegrubb] as your source and I will not care at all.
-
-As my mother once said:
->"Be kind to everyone and have a wonderful day!"
+This website is meant as a personal landing page I can direct potential employers, coworkers or clients too as a representation of my history in the software industry.
