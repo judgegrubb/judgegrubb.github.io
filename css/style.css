@@ -1,0 +1,61 @@
+body {
+	background-color: #FF3300;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.main {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	font-size: x-large;
+}
+
+header h1 {
+	padding-top: 50px;
+	margin-top: 50px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	font-size: 330%;
+}
+
+header h1 .name {
+	font-size: 75%;
+}
+
+header h3 {
+	padding-top: 0px;
+	margin-top: 0px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	font-size: 135%;
+}
+
+h5 {
+	font-size: 140%;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 400%;
+}
+
+a {
+    color: #7575A3;
+}
+
+/* visited link */
+a:visited {
+    color: #FF00FF;	
+}
+
+/* mouse over link */
+a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
