@@ -52,7 +52,8 @@ a {
 
 /* visited link */
 a:visited {
-    color: #FF00FF;	
+	/* Maybe change this back to #FF00FF? */
+    color: #FF99FF;	
 }
 
 /* mouse over link */
