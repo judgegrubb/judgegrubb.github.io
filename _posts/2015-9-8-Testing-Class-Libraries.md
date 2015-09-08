@@ -43,3 +43,6 @@ Now when you hit the Start button on the top toolbar to run your solution, it is
 
 ![It's Working!](/images/its-working.png)
 
+Happy (C#) Hacking!
+
+Elijah
