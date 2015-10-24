@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div id="wrapper">
+	  	<header>
+	  		<h1>UTAH OZONE HEATMAP</h1>
+		</header>
+	  	<main>
+	  		
+		    <div id="map"></div>
+		    <script src="data.js"></script>
+		    <script src="script.js"></script>
+		    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4kODOBdLGSAEXbMM85Ye17ZqxdhC3dcs&libraries=visualization&callback=initMap" async defer></script>
+
+		    <input id="rangeId" type="range" name="year" min="2003" max="2013" oninput="updateData(this.value)" onchange="updateData(this.value)" />
+		    <p>'03   '04   <span id="greyout">'05</span>   '06   '07   '08   '09   '10   '11   '12   '13</p>
+			<button class="btn btn-primary" onclick="clickPlay()">PLAY</button>
+		</main>
+		<footer>
+		</footer>
+	</div>
+  </body>
+</html>

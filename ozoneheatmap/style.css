@@ -1,0 +1,97 @@
+/* CSS declarations go here */
+body {
+    background-color: #FF3030;
+    background-image: linear-gradient(to bottom, #FF3030, #FFFFFF 150%);
+    /* Need to fix this ://///// */
+    /*background-attachment: fixed*/
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+
+    color: #FFFFFF;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+#wrapper {
+    height: 60%;
+    width: 60%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 100%;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+
+a {
+    color: #7575A3;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 43px;
+}
+
+#rangeId {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#greyout {
+    color: gray;
+}
+
+/* visited link */
+a:visited {
+    /* Maybe change this back to #FF00FF? */
+    color: #FF99FF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+hr {
+    margin-top: 30px;
+}
