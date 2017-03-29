@@ -7,7 +7,7 @@ I wrote a [post](/blog/2015/09/16/Microsoft-Interview/) a while back about my ex
 
 Instead, I spent last summer interning at Goldman Sachs. Excuse me, I wasn't an "intern", I was a "Technology Summer Analyst". Let me tell you, I still hate putting that title on my resume.
 
-Goldman Sachs was an okay experience. I met some really cool people there, especially my fellow interns. However, the culture was a major turn off. While the internship experience was great, the impression I got from my time there was that full time employees were often overworked and in the long term, the growth and learning of employees was not a priority. It didn't help that the full time offer I received at the end of the summer was nothing to write home about.
+Goldman Sachs was an okay experience. I met some really cool people there, especially my [fellow](https://www.instagram.com/p/BI9RUu8DGKh/) [interns](https://www.instagram.com/p/BIeQUBLDJhv/). However, the culture was a major turn off. While the internship experience was great, the impression I got from my time there was that full time employees were often overworked and in the long term, the growth and learning of employees was not a priority. It didn't help that the full time offer I received at the end of the summer was nothing to write home about.
 
 This last fall I interviewed around again, planning for another internship for this coming summer. Another year older and wiser too, I had slightly more success in my efforts.
 
