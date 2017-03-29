@@ -23,4 +23,4 @@ I'm still scratching my head. Oh well. I guess that's better then banging it aga
 
 Sometimes even the best technologies are just plain dumb.
 
-Elijah
+*Elijah*

@@ -9,7 +9,8 @@
 		<title>Elijah Grubb</title>
 
 		<!-- Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,22 +21,110 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="main">
-			<header>
-				<h1>My name is Elijah Grubb.</h1>
-				<h3>I am a software engineering student at the <a href="http://www.cs.utah.edu/" target="_blank">University of Utah.</a></h3>
-			</header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-9 col-md-offset-3">
+					<header>
+						<h1>Elijah Grubb</h1>
+					</header>
+				</div>
+			</div>
 
-			<h5>Get to know me:</h5>
-			<ul>
-				<li>Read my code on <a href="https://www.github.com/judgegrubb" target="_blank">github.</a></li>
-				<li>Get to know my history on <a href="https://www.linkedin.com/in/elijahgrubb" target="_blank">linkedin.</a></li>
-				<li>Summarize my life with <a href="resume.pdf" target="_blank">my resume.</a></li>
-				<li>Digest my thoughts on <a href="blog" target="_blank">my blog.</a></li>
-				<li>Follow me on <a href="https://www.twitter.com/judgegrubb" target="_blank">twitter.</a></li>
-				<li>Stalk me on <a href="https://www.facebook.com/ElijahLloydGrubb" target="_blank">facebook.</a></li>
-				<li>Or just shoot me <a href="mailto:ElijahLGrubb@gmail.com" target="_blank">an email.</a></li>
-			</ul>
+			<div class="row">
+				<div class="col-md-2 col-md-offset-1">
+					<div class="picture">
+						<img class="profilepic img-thumbnail" src="profile.jpg" alt="Elijah Grubb Pic" />
+					</div>
+					<br>
+					<ul>
+						<li><a href="blog" target="_blank">Blog</a></li>
+						<li><a href="https://www.linkedin.com/in/elijahgrubb" target="_blank">LinkedIn</a></li>
+						<li><a href="https://www.github.com/judgegrubb" target="_blank">Github</a></li>
+						<li><a href="resume.pdf" target="_blank">Resume</a></li>
+						<li><a href="cv.pdf" target="_blank">Curriculum Vitae</a></li>
+					</ul>
+					<div class="contact">
+						<h5>Contact Info</h5>
+						<ul>
+							<li><img class="icons img-rounded" src="glyphicons-442-phone-alt.png"/> <a href="tel:+1-801-786-9886" target="_blank">801-786-9886</a></li>
+							<li><img class="icons img-rounded" src="glyphicons-social-14-e-mail-envelope.png"/> <a href="mailto:elijah.grubb@utah.edu">elijah.grubb@utah.edu</a></li>
+							<li><img class="icons img-rounded" src="glyphicons-social-32-twitter.png"/> <a href="https://www.twitter.com/judgegrubb" target="_blank">@judgegrubb</a></li>
+							<li><img class="icons img-rounded" src="glyphicons-social-31-facebook.png"/> <a href="https://www.facebook.com/ElijahLloydGrubb" target="_blank">Elijah Grubb</a></li>
+							<li><img class="icons img-rounded" src="glyphicons-social-68-snapchat.png"/> <a href="https://www.snapchat.com/add/theonorwood" target="_blank">theonorwood</a></li>
+						</ul>
+					</div>
+					<br>
+				</div>
+				<div class="col-md-8">
+					<p>I am an undergraduate student studying Computer Science at 
+						the <a href="http://www.cs.utah.edu/" target="_blank">University of Utah.</a>
+						I am a member of the <a href="http://initialdlab.org" target="_blank">InitialD Lab</a> 
+						in the <a href="http://datagroup.cs.utah.edu/" target="_blank">Data Group</a> in the 
+						<a href="https://www.cs.utah.edu/" target="_blank">School of Computing</a> working with 
+						Professor <a href="https://www.cs.utah.edu/~lifeifei/" target="_blank">Feifei Li</a>.
+						My research interests lie in database management systems, distributed systems and 
+						the security of operating systems. I am also interested in big data problems and 
+						applications, specifically in looking at how we can solve them from a systems level.</p>
+					<h3>Projects I've been involved with...</h3>
+					<div class="col-md-12">
+						<table class="table table-hover">
+							<tbody>
+								<tr>
+									<th scope="row">STORM: Spatio-Temporal Online Reasoning and Management of Large Data</th>
+									<td>Within the STORM project, worked on data import, which includes bringing in 
+										large amounts of data from twitter, building a generic import function into 
+										the application to let others upload their own spatio-temporal data and 
+										researching data deduplication methods.</td>
+								</tr>
+								<tr>
+									<th scope="row">Spatio-Temporal Analysis: US Election 2016</th>
+									<td>Within the Election project, worked on taking data store of tweets and running 
+										it through systems to find political tweets and assign them to their appropriate 
+										county based on location, then pushing them to database.</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<h3>Outside of Computer Science...</h3>
+					<div class="col-md-12">
+						<h4>Sports are fun.</h4>
+						<div class="col-md-12">
+							<table class="table table-hover table-no-lines">
+								<tbody>
+									<tr><td>I love soccer. I have season tickets to 
+										<a href="http://www.rsl.com/" target="_blank">RSL</a> and spend most weekends 
+										watching <a href="https://southamptonfc.com/" target="_blank">English</a>, 
+										<a href="http://www.bvb.de/eng/" target="_blank">German</a>, 
+										<a href="https://www.fcbarcelona.com/" target="_blank">Spanish</a>, 
+										<a href="http://www.inter.it/en/hp" target="_blank">Italian</a> or maybe even 
+										<a href="https://www.om.net/" target="_blank">French</a> footy.</td></tr>
+									<tr><td>The <a href="http://www.utahjazz.com/" target="_blank">Utah Jazz</a> are my only team worth talking about right now.</td></tr>
+									<tr><td>I'm in denial about what the Chargers and Braves are currently doing.</td></tr>
+									<tr><td>I played tennis in high school. Still love to watch the <a href="https://en.wikipedia.org/wiki/Grand_Slam_(tennis)" target="_BYU">Grand Slam</a> tournaments.</td></tr>
+									<tr><td><a href="https://en.wikipedia.org/wiki/Holy_War_(Utah_vs._BYU)" target="_BYU">Utah rules BYU drools</a>.</td></tr>
+								</tbody>
+							</table>
+						</div>
+						<h4>I've read some good books lately.</h4>
+						<div class="col-md-12">
+							<table class="table table-hover table-no-lines">
+								<tbody>
+									<tr class="warning">
+										<th scope="row"><a href="https://www.amazon.com/Are-Legion-Bob-Bobiverse-Book-ebook/dp/B01LWAESYQ/" target="_blank">We Are Legion (We Are Bob)</a></th>
+										<td>Dennis Taylor</td>
+									<tr>
+										<th scope="row"><a href="https://www.amazon.com/Dark-Matter-Novel-Blake-Crouch-ebook/dp/B0180T0IUY/" target="_blank">Dark Matter</a></th>
+										<td>Blake Crouch</td>
+									</tr>
+									<tr>
+										<th scope="row"><a href="https://www.amazon.com/Long-Small-Angry-Planet-Wayfarers-ebook/dp/B00ZP64F28/" target="_blank">The Long Way to a Small, Angry Planet</a></th>
+										<td>Becky Chambers</td>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

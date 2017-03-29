@@ -45,7 +45,7 @@ Now when you hit the Start button on the top toolbar to run your solution, it is
 
 Happy (C#) Hacking!
 
-Elijah
+*Elijah*
 
 **UPDATE 9/16:**
 
