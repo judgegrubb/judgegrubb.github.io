@@ -70,5 +70,3 @@ Of course this would result in a worst case scenario of 24 drops. To get rid of 
 All in all, it was a very enlightening experience. I would like to thank Microsoft for the opportunity to interview with them and everyone cross your fingers that I hear back from a recruiter in 3 weeks time.
 
 Wish me luck!
-
-*Elijah*

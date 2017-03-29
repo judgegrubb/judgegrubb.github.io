@@ -45,5 +45,3 @@ The timing didn't help either. I had to extend my offer from Qualtrics and was i
 I ended up accepting Qualtrics' offer, so I'll be spending my summer in Provo. I'm excited about experiencing a more startup-esque, free flowing culture than I'm used to. [I'm less excited about the city](https://en.wikipedia.org/wiki/Holy_War_(Utah_vs._BYU)). I'm grateful for the opportunity and can't wait to see what adventures await me.
 
 It still stings. But there's nowhere to go but up. And one rejection doesn't mean the end of the world. And, unfortunately, there's a whole lot of rejection in my future, especially considering my career choice. An entire world of possibilities is still ahead of me. Can't wait to see what's next.
-
-*Elijah*
