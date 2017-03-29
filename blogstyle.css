@@ -7,18 +7,18 @@
   margin-top: 0px !important;
 }
 
-p a {
+p a, li a {
     color: #cc2900;
 }
 
 /* visited link */
-p a:visited {
+p a:visited, li a:visited {
 	/* Maybe change this back to #FF00FF? */
     color: #00a3cc;	
 }
 
 /* mouse over link */
-p a:hover {
+p a:hover, li a:hover {
 	color: #000;
 	text-decoration: none;
 }
