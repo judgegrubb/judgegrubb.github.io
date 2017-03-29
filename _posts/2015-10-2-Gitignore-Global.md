@@ -22,5 +22,3 @@ I still have no idea why I created that file in the first place. And why in my D
 I'm still scratching my head. Oh well. I guess that's better then banging it against my desk in frustration.
 
 Sometimes even the best technologies are just plain dumb.
-
-Elijah

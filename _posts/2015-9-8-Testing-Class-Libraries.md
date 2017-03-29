@@ -45,8 +45,6 @@ Now when you hit the Start button on the top toolbar to run your solution, it is
 
 Happy (C#) Hacking!
 
-Elijah
-
 **UPDATE 9/16:**
 
 I finally learned how to do this with unit tests. And I feel rather silly now that I've been taught. Simply replicate my process but instead of selecting a console application, select the "Tests" category on the left and choose a Unit Test Application. Unit Tests are so much better than testing with a Console Application and I'm not looking back. But that's mainly because of how silly I feel not knowing how to use unit tests before.

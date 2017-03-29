@@ -2,29 +2,33 @@ body {
 	/* background-color: #FF3300; */
 	/* color: #FFFFFF; */
 	text-decoration: none;
+	/*background-color: #ededed;*/
 }
 
-.main {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-header {
-	font-size: x-large;
-}
+/*
+my color scheme, tetradic
+main: #cc2900
+complimentary: #00a3cc
+secondary: #00cc29
+secondary: #cc00a3
+http://www.colorhexa.com/cc2900
+*/
 
 header h1 {
-	padding-top: 50px;
+	font-size: 400%;
+	color: #cc2900;
+	font-weight: bold;
 	margin-top: 50px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-	font-size: 325%;
 }
 
-header h1 .name {
-	font-size: 75%;
+h3 {
+	font-weight: bold;
+	color: #cc2900;
 }
+
+.table-no-lines th, .table-no-lines td { 
+     border-top: none !important; 
+ }
 
 header h3 {
 	padding-top: 0px;
@@ -35,24 +39,33 @@ header h3 {
 }
 
 h5 {
-	font-size: 140%;
+	font-size: 120%;
+}
+
+.profilepic {
+	height: 90%;
+	width: 90%;
+}
+
+.icons {
+	height: 8%;
+	width: 8%;
 }
 
 ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
-	font-size: 400%;
 }
 
 a {
-    color: #FF3300;
+    color: #cc2900;
 }
 
 /* visited link */
 a:visited {
 	/* Maybe change this back to #FF00FF? */
-    color: #7575A3;	
+    color: #00a3cc;	
 }
 
 /* mouse over link */
