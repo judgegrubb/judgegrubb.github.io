@@ -13,6 +13,6 @@ I spent most of the night tonight redesigning/rebuilding my [personal homepage](
 
 One of the points in Matt Might's *amazing* [undergrad CS major advice column](http://matt.might.net/articles/what-cs-majors-should-know/) that's always hit hardest with me is his emphasis of a portfolio over a resume. While building out my new homepage I'm trying to focus on that idea. My goal is a nice-looking, simple page that allows people to easily get to know me and my experience. However, since my long term goals more and more involve academia, I'm also trying to emphasize my research experience and give it a look that is familiar for those who have experience with academic personal sites.
 
-The tweaking will continue for the forseeable future. I've also come across how barren my side projects section is. In the near future I plan to build out a user level threads library and I'll add it to the list once it's semi-functional. Over the summer I'm also planning on building a rudimentary DBMS as I study the designs of database kernels, so that will be added as well.
+The tweaking will continue for the foreseeable future. I've also come across how barren my side projects section is. In the near future I plan to build out a user level threads library and I'll add it to the list once it's semi-functional. Over the summer I'm also planning on building a rudimentary DBMS as I study the designs of database kernels, so that will be added as well.
 
-Anyways, I believe it's a huge improvement over it's old form. Hopefully this more accurately represents who I am.
+Anyways, I believe it's a huge improvement over its old form. Hopefully this more accurately represents who I am.
