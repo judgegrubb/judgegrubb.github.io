@@ -19,4 +19,4 @@ As part of my research work in the [Flux Research Group](http://www.flux.utah.ed
 
 \* tcsh is currently only found in the testing branch of apk. You have to add the link to the testing branch to /etc/apk/repositories as described [here](https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management#Add_a_Package).
 
-If anyone has any corrections, questions or additions to this short list feel free to reach out to me on [twitter](https://twitter.com/judgegrubb) or by [email](grubb@cs.utah.edu).
+If anyone has any corrections, questions or additions to this short list feel free to reach out to me on [twitter](https://twitter.com/judgegrubb) or by [email](mailto:grubb@cs.utah.edu).
