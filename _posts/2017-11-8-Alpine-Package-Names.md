@@ -11,7 +11,7 @@ As part of my research work in the [Flux Research Group](http://www.flux.utah.ed
 | libssl-dev     | openssl-dev  |
 | libboost-dev   | boost-dev    |
 | iputils-ping   | iputils      |
-| perl-modules   | ??? (*help needed*) |
+| perl-modules   | ???          |
 | libwww-perl    | perl-libwww  |
 | tcsh           | tsch@testing\*|
 | ksh            | mksh         |
