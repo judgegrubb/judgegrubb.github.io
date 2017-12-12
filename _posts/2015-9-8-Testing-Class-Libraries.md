@@ -17,7 +17,7 @@ It doesn't matter what your project's name is, but for simplicity I suggest usin
 
 Make sure it's in the same location as your Class Library Project and add to the existing solution to ensure continuity.
 
-I've been working hard this semester[<sup>1</sup>](#footnote1)<a name="return1"></a>.
+I've been working hard this semester<sup>[1](#footnote1)</sup><a name="return1"></a>.
 
 ![New Project](/images/new-project.png)
 
