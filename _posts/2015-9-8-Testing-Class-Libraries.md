@@ -17,8 +17,6 @@ It doesn't matter what your project's name is, but for simplicity I suggest usin
 
 Make sure it's in the same location as your Class Library Project and add to the existing solution to ensure continuity.
 
-I've been working hard this semester<sup>[1](#footnote1)</sup><a name="return1"></a>.
-
 ![New Project](/images/new-project.png)
 
 After you create this new project it will open up it's Program.cs file which contains what this whole process is about, the Main Function. Now you have a program that can actually execute operations. However, you are not quite done.
@@ -50,9 +48,3 @@ Happy (C#) Hacking!
 **UPDATE 9/16:**
 
 I finally learned how to do this with unit tests. And I feel rather silly now that I've been taught. Simply replicate my process but instead of selecting a console application, select the "Tests" category on the left and choose a Unit Test Application. Unit Tests are so much better than testing with a Console Application and I'm not looking back. But that's mainly because of how silly I feel not knowing how to use unit tests before.
-
-----------
-
-#### Notes
-
-1. Well, I've really been working at it for the last couple years, but especially this semester. [(back.)](#return1)<a name="footnote1"></a>
