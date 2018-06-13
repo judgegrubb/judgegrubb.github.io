@@ -49,7 +49,7 @@
 						<h5>Contact Info</h5>
 						<ul>
 							<li><img class="icons" src="images/ic_phone_in_talk_black_24dp_2x.png"/> <a href="tel:+1-801-786-9886" target="_blank">801-786-9886</a></li>
-							<li><img class="icons" src="images/ic_email_black_24dp_2x.png"/> <a href="mailto:grubb@cs.utah.edu">grubb@cs.utah.edu</a></li>
+							<li><img class="icons" src="images/ic_email_black_24dp_2x.png"/> <a href="mailto:egrubb@cs.umd.edu">egrubb@cs.umd.edu</a></li>
 							<li><img class="icons img-rounded" src="images/glyphicons-social-32-twitter.png"/> <a href="https://www.twitter.com/judgegrubb" target="_blank">@judgegrubb</a></li>
 							<li><img class="icons img-rounded" src="images/glyphicons-social-31-facebook.png"/> <a href="https://www.facebook.com/ElijahLloydGrubb" target="_blank">Elijah Grubb</a></li>
 							<li><img class="icons" src="images/ic_location_on_black_24dp_2x.png"/> 3465 <a href="http://bit.ly/2g2dTh7" target="_blank">MEB</a></li>
@@ -58,37 +58,73 @@
 					<br>
 				</div>
 				<div class="col-md-8">
-					<div class="alert alert-success" role="alert">
-						I will be joining the <a href="http://www.cs.umd.edu/" target="_blank">University of Maryland, College Park</a> this fall as a PhD student.
-					</div>
-					<p>I am an undergraduate student studying Computer Science at 
+					<p>I am a first year Ph.D. student in the <a href="http://www.cs.umd.edu/" target="_blank">Computer Science Department</a> 
+						at the <a href="http://www.umd.edu/">University of Maryland, College Park</a>. My interests broadly involve security, 
+						systems, programming languages, and cryptography.</p>
+
+					<p>I received my undergraduate degree in Computer Science at 
 						the <a href="http://www.cs.utah.edu/" target="_blank">University of Utah.</a>
-						I am a member of the <a href="http://www.flux.utah.edu/" target="_blank">Flux Research Group</a>
+						There I was a member of the <a href="http://www.flux.utah.edu/" target="_blank">Flux Research Group</a>
 						in the <a href="https://www.cs.utah.edu/" target="_blank">School of Computing</a> working with
 						Professor <a href="http://www.cs.utah.edu/~eeide/" target="_blank">Eric Eide</a>.
 						Previously, I worked with Professor <a href="https://www.cs.utah.edu/~lifeifei/" target="_blank">Feifei Li</a>
 						as a part of the <a href="http://datagroup.cs.utah.edu/" target="_blank">Data Group</a>.</p>
 
-					<p>My research interests somewhere at the intersection of security, systems, and programming languages. I have had the 
+					<!-- <p>My research interests somewhere at the intersection of security, systems, and programming languages. I have had the 
 						opportunity to spend some time working at several companies working alongside talented software engineers. One 
 						of the biggest takeaways of mine is the need for more secure software without increasing developer overhead. 
 						My research goals involve developing systems and tooling focused on increased security without compromising 
 						developer productivity or significantly increasing developers' learning curve. With this goal in mind, my 
 						research experience has involved formal methods, dynamic and static program analysis, containers, virtualization, 
 						operating systems, compilers, program synthesis, and fuzzing. 
-					</p>
+					</p> -->
 					
-					<h3>Research projects&hellip;</h3>
+					<h3>Current research projects&hellip;</h3>
+					<div class="col-md-12">
+						<table class="table table-hover">
+							<tbody>
+								<tr>
+									<th scope="row"><a href="http://www.flux.utah.edu/project/xsmith" target="_blank">Xsmith</a></th>
+									<td>
+										As a part of the Xsmith project, I'm currently evaluating the modern state of 
+										volatiles in C compilers. Published 10 years ago, 
+										<a href="http://www.cs.utah.edu/~regehr/papers/emsoft08-preprint.pdf" target="_black">
+											Volatiles Are Miscompiled, and What to Do about It</a>
+										shed some fascinating light on the surprisingly dismal state of volatiles in 
+										production compilers. My goal is to evaluate how compilers and tools for testing 
+										compilers have changed over the past decade with regard to volatiles. Has the 
+										situation become better? Or maybe volatiles aren't as important as previously thought?
+									</td>
+								</tr>
+								<!-- <tr>
+									<th scope="row">Cashmere-lop: genetic branch-coverage guided C compiler fuzzing</th>
+									<td>
+										I'm currently developing a new fuzzer, thought to exist at the intersection of 
+										<a href="https://embed.cs.utah.edu/csmith/" target="_blank">Csmith</a> 
+										and 
+										<a href="http://lcamtuf.coredump.cx/afl/" target="_blank">AFL</a>. 
+										The idea is to evaluate the code coverage of different generated random C 
+										programs in compilers, then use those as seeds to mutate and generate more 
+										random C programs that burrow further down the control-flow graph. The 
+										biggest technical difficulty is utilizing the mutation strategies shown 
+										to have empirical success in AFL while still resulting in valid, correct C 
+										programs as Csmith currently does.
+									</td>
+								</tr> -->
+							</tbody>
+						</table>
+					</div>
+					<h3>Past research projects&hellip;</h3>
 					<div class="col-md-12">
 						<table class="table table-hover">
 							<tbody>
 								<tr>
 									<th scope="row"><a href="https://www.emulab.net/portal/" target="_blank">Emulab: An Integrated Experimental Environment for Distributed Systems and Networks</a></th>
 									<td>
-										Currently working to help bring Docker support to Emulab's unique system design.
-										Testing ways to use the lightweight container capabilities of Docker while retaining
+										Worked to help bring Docker support to Emulab's unique system design.
+										Tested ways to use the lightweight container capabilities of Docker while retaining
 										Emulab's key debugging features and smooth deployment capabilities. Implemented support
-										for Alpine Linux images inside of Emulab.
+										for Alpine Linux images inside of Emulab. Publication describing process is under review.
 									</td>
 								</tr>
 								<tr>
