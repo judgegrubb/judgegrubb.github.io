@@ -51,6 +51,7 @@ h5 {
 .icons {
 	height: 8%;
 	width: 8%;
+	max-width: 20px;
 }
 
 ul {
@@ -77,4 +78,8 @@ a:hover {
 	text-decoration: none;
 	font-weight: bold;
 	font-style: italic;
+}
+
+.profilepic {
+	max-width: 200px;
 }
