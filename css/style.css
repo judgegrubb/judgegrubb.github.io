@@ -4,6 +4,8 @@ body {
 	text-decoration: none;
 	/*background-color: #ededed;*/
 	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
 }
 
 /*
@@ -61,14 +63,14 @@ ul {
 }
 
 a {
-    color: #000080;
+    	color: #000080;
 	font-weight: bold;
 }
 
 /* visited link */
 a:visited {
 	/* Maybe change this back to #FF00FF? */
-    color: #000080;
+    	color: #000080;
 	font-weight: bold;
 }
 
@@ -82,4 +84,53 @@ a:hover {
 
 .profilepic {
 	max-width: 200px;
+}
+
+.btn-link {
+	color: #000080;
+	font-weight: bold;
+	font-size: 14px;
+	white-space: normal;
+}
+
+.btn-link:hover {
+	color: #008080;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+p {
+	margin: 0 0 10px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+h1, h2, h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+h4, h5, h6 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.card button {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.table th, .table td {
+	padding: 8px !important;
 }

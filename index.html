@@ -10,7 +10,8 @@
 
 		<!-- Bootstrap -->
 		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css" type="text/css" />
 
 		<meta name="theme-color" content="#800000">
@@ -25,7 +26,7 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-9 col-md-offset-3">
+				<div class="col-md-9 offset-md-3">
 					<header>
 						<h1>Elijah Grubb</h1>
 					</header>
@@ -33,7 +34,7 @@
 			</div>
 
 			<div class="row">
-				<div class="col-md-2 col-md-offset-1">
+				<div class="col-md-2 offset-md-1">
 					<div class="picture">
 						<img class="profilepic img-thumbnail" src="images/profile.jpg" alt="Elijah Grubb Pic" />
 					</div>
@@ -43,15 +44,15 @@
 						<li><a href="https://www.linkedin.com/in/elijahgrubb" target="_blank">LinkedIn</a></li>
 						<li><a href="https://www.github.com/judgegrubb" target="_blank">Github</a></li>
 						<!-- <li><a href="elijahgrubbresume.pdf" target="_blank">Resume</a></li> -->
-						<li><a href="elijahgrubbcv.pdf" target="_blank">Curriculum Vitae</a></li>
+						<li><a href="elijahgrubbcv.pdf" target="_blank">Curriculum Vitae (CV)</a></li>
 					</ul>
 					<div class="contact">
 						<h5>Contact Info</h5>
 						<ul>
 							<li><img class="icons" src="images/ic_phone_in_talk_black_24dp_2x.png"/> <a href="tel:+1-801-786-9886" target="_blank">801-786-9886</a></li>
 							<li><img class="icons" src="images/ic_email_black_24dp_2x.png"/> <a href="mailto:egrubb@cs.umd.edu">egrubb@cs.umd.edu</a></li>
-							<li><img class="icons img-rounded" src="images/glyphicons-social-32-twitter.png"/> <a href="https://www.twitter.com/judgegrubb" target="_blank">@judgegrubb</a></li>
-							<li><img class="icons img-rounded" src="images/glyphicons-social-31-facebook.png"/> <a href="https://www.facebook.com/ElijahLloydGrubb" target="_blank">Elijah Grubb</a></li>
+							<li><img class="icons rounded" src="images/glyphicons-social-32-twitter.png"/> <a href="https://www.twitter.com/judgegrubb" target="_blank">@judgegrubb</a></li>
+							<li><img class="icons rounded" src="images/glyphicons-social-31-facebook.png"/> <a href="https://www.facebook.com/ElijahLloydGrubb" target="_blank">Elijah Grubb</a></li>
 							<!-- <li><img class="icons" src="images/ic_location_on_black_24dp_2x.png"/> 3465 <a href="http://bit.ly/2g2dTh7" target="_blank">MEB</a></li> -->
 						</ul>
 					</div>
@@ -79,6 +80,7 @@
 						operating systems, compilers, program synthesis, and fuzzing. 
 					</p> -->
 					
+
 					<h3>Current research projects</h3>
 					<div class="col-md-12">
 						<table class="table table-hover">
@@ -123,9 +125,47 @@
 									<td scope="row"><b>Supporting Docker in Emulab-Based Network Testbeds</b>.<br/>
 										D. Johnson, <b>E. Grubb</b>, E. Eide. <br>
 										In <i>Proc. of the 11th USENIX Workshop on Cyber Security Experimentation and Test (<a href="https://www.usenix.org/conference/cset18/" target="_blank">CSET 18</a>)</i>. <br>
-										<a href="papers/cset18-preprint.pdf" target="_blank">PDF</a> &nbsp; 
-										<a href="bibtex/cset18-johnson.bib" target="_blank">Bibtex</a> <!-- &nbsp; 
-										Slides -->
+										<a href="papers/cset18-preprint.pdf" target="_blank">PDF</a> &nbsp;
+										<a href="#dockerAbstract" data-toggle="collapse" aria-expanded="false" aria-controls="dockerAbstract">Abstract</a>  &nbsp;
+										<a href="#dockerBibtex" data-toggle="collapse" aria-expanded="false" aria-controls="dockerBibtex">Bibtex</a>
+										<!-- <a href="bibtex/cset18-johnson.bib" target="_blank">Bibtex</a> --> <!-- &nbsp; 
+										Slides? -->
+										<div class="accordion" id="dockerPaperAccordion">
+											<div class="collapse" id="dockerAbstract" data-parent="#dockerPaperAccordion">
+												<div class="card card-body">
+													Researchers conduct experiments in a variety of computing environments, 
+													including dedicated testbeds and commercial clouds, and they need convenient 
+													mechanisms for deploying their software within these disparate platforms. 
+													To address this need, we have extended Emulab so that it can instantiate 
+													and configure container-based virtual devices using Docker images. Docker 
+													is a de facto standard for packaging and deploying software in cloud 
+													environments; now, researchers can use Docker to package and deploy 
+													software within Emulab-based testbeds as well. We describe how Emulab 
+													incorporates Docker and how it extends Docker images to support the 
+													interactivity that researchers expect within a testbed. We show that Emulab 
+													can use many popular Docker images to create testbed experiments. We expect 
+													that Emulab's support for Docker will make it easier for researchers to move 
+													their activities freely, both into the testbed and out into production.
+												</div>
+											</div>
+											<div class="collapse" id="dockerBibtex" data-parent="#dockerPaperAccordion">
+												<div class="card card-body">
+													<pre>
+@inproceedings {Johnson+:cset18,
+	author = {David Johnson and Elijah Grubb and Eric Eide},
+	title = {Supporting Docker in Emulab-Based Network Testbeds},
+	booktitle = {11th {USENIX} Workshop on Cyber Security Experimentation and Test ({CSET} 18)},
+	year = {2018},
+	month = {August},
+	address = {Baltimore, MD},
+	url = {https://www.usenix.org/conference/cset18/presentation/johnson},
+	publisher = {{USENIX} Association},
+}
+													</pre>
+												</div>
+											</div>
+										</div>
+									</td>
 								</tr>
 							</tbody>
 						</table>
@@ -133,37 +173,62 @@
 
 					<h3>Past research projects</h3>
 					<div class="col-md-12">
-						<table class="table table-hover">
-							<tbody>
-								<tr>
-									<th scope="row"><a href="https://www.emulab.net/portal/" target="_blank">Emulab: An Integrated Experimental Environment for Distributed Systems and Networks</a></th>
-									<td>
-										Worked to help bring Docker support to Emulab's unique system design.
-										Tested ways to use the lightweight container capabilities of Docker while retaining
-										Emulab's key debugging features and smooth deployment capabilities. Implemented support
-										for Alpine Linux images inside of Emulab. Publication describing process has been accepted to 
-										<a href="https://www.usenix.org/conference/cset18/" target="_blank">CSET 18</a>.
-									</td>
-								</tr>
-								<tr>
-									<th scope="row">SONAR: Spatio-temporal ONline Analysis and Reasoning</th>
-									<td>
-										Within the SONAR project, worked on data import, which includes bringing in 
-										large amounts of data from twitter, building a generic import function into 
-										the application to let others upload their own spatio-temporal data and 
-										researching data deduplication methods.
-									</td>
-								</tr>
-								<tr>
-									<th scope="row"><a href="http://estorm.org/" target="_blank">Spatio-Temporal Analysis: US Election 2016</a></th>
-									<td>
-										Within the election project, worked on taking collecting data store of tweets and running 
-										them through systems to find political tweets and assign them to their appropriate 
-										county based on location, then pushing them to database.
-									</td>
-								</tr>
-							</tbody>
-						</table>
+						<div class="accordion" id="researchProjectsAccordion">
+							<div class="card">
+								<div class="card-header" id="headingEmulab">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEmulab" aria-expanded="false" aria-controls="collapseEmulab">
+										Emulab: An Integrated Experimental Environment for Distributed Systems and Networks
+									</button>
+								</div>
+								<div id="collapseEmulab" class="collapse" aria-labelledby="headingEmulab" data-parent="#researchProjectsAccordion">
+									<div class="card-body">
+										<p>
+											Worked to help bring Docker support to Emulab's unique system design.
+											Tested ways to use the lightweight container capabilities of Docker while retaining
+											Emulab's key debugging features and smooth deployment capabilities. Implemented support
+											for Alpine Linux images inside of Emulab. Publication describing process has been accepted to 
+											<a href="https://www.usenix.org/conference/cset18/" target="_blank">CSET 18</a>.
+										</p>
+										<a href="https://www.emulab.net/portal/" target="_blank">Project Link</a>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingSonar">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSonar" aria-expanded="false" aria-controls="collapseSonar">
+										SONAR: Spatio-temporal ONline Analysis and Reasoning
+									</button>
+								</div>
+								<div id="collapseSonar" class="collapse" aria-labelledby="headingSonar" data-parent="#researchProjectsAccordion">
+									<div class="card-body">
+										<p>
+											Within the SONAR project, worked on data import, which includes bringing in 
+											large amounts of data from twitter, building a generic import function into 
+											the application to let others upload their own spatio-temporal data and 
+											researching data deduplication methods.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingElection">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseElection" aria-expanded="false" aria-controls="collapseElection">
+										Spatio-Temporal Analysis: US Election 2016
+									</button>
+								</div>
+								<div id="collapseElection" class="collapse" aria-labelledby="headingElection" data-parent="#researchProjectsAccordion">
+									<div class="card-body">
+										<p>
+											Within the election project, worked on taking collecting data store of tweets and running 
+											them through systems to find political tweets and assign them to their appropriate 
+											county based on location, then pushing them to database.
+										</p>
+										<a href="http://estorm.org/" target="_blank">Project Link</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<br />
 					</div>
 
 					<!-- <h3>Side projects</h3>
@@ -249,12 +314,12 @@
 						<div class="col-md-12">
 							<table class="table table-hover table-no-lines">
 								<tbody>
-									<tr class="warning">
+									<tr class="table-active">
 										<th scope="row"><a href="https://www.amazon.com/Cryptonomicon-Neal-Stephenson-ebook/dp/B000FC11A6/" target="_blank">Cryptonomicon</a></th>
 										<td>Neal Stephenson</td>
 										<td>IP</td>
 									</tr>
-									<tr class="warning">
+									<tr class="table-active">
 										<th scope="row"><a href="https://www.amazon.com/Are-Legion-Bob-Bobiverse-Book-ebook/dp/B01LWAESYQ/" target="_blank">We Are Legion (We Are Bob)</a></th>
 										<td>Dennis Taylor</td>
 										<td>IP</td>
@@ -263,88 +328,88 @@
 										<th scope="row"><a href="https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X/" target="_blank">Bad Blood</a></th>
 										<td>John Carreyrou</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Sometimes-Lie-Novel-Alice-Feeney/dp/1250144841/" target="_blank">Sometimes I Lie</a></th>
 										<td>Alice Feeney</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="far fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Dark-Matter-Novel-Blake-Crouch-ebook/dp/B0180T0IUY/" target="_blank">Dark Matter</a></th>
 										<td>Blake Crouch</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Long-Small-Angry-Planet-Wayfarers-ebook/dp/B00ZP64F28/" target="_blank">The Long Way to a Small, Angry Planet</a></th>
 										<td>Becky Chambers</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="far fa-star"></i>
+											<i class="far fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Ready-Player-One-Ernest-Cline/dp/0307887448/" target="_blank">Ready Player One</a></th>
 										<td>Ernest Cline</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="far fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Martian-Andy-Weir/dp/0553418025/" target="_blank">The Martian</a></th>
 										<td>Andy Weir</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155/" target="_blank">Masters of Doom</a></th>
 										<td>David Kushner</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
 										</td>
 									</tr>
 									<tr>
 										<th scope="row"><a href="https://www.amazon.com/Steve-Jobs-Walter-Isaacson/dp/1501127624/" target="_blank">Steve Jobs</a></th>
 										<td>Walter Isaacson</td>
 										<td>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-											<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
 										</td>
 									</tr>
 								</tbody>
@@ -381,9 +446,8 @@
 			</div>
 		</div>
 
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
-		<script src="js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 	</body>
 </html>
