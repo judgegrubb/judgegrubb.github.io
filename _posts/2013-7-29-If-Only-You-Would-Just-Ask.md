@@ -3,6 +3,8 @@ layout: post
 title: If Only You Would Just Ask
 ---
 
+*This post originally appeared on Medium. It has now been moved here.*
+
 I adore my little 3-year old cousin Brooklynn. She has me wrapped around her little finger. She’s an adorable girl, and I’d do anything for her, but today I learned an important lesson from her.
 
 We were racing around my driveway, her on her cute little pink princess bike. Her mother, my aunt, calls to her, it’s time for her to come inside to eat dinner.
@@ -19,7 +21,9 @@ Then something occurred to me. There was a key difference to our interaction the
 
 She had **asked** me to put the bike away.
 
+<br>
 <hr>
+<br>
 
 All too often you worry about seeming out of hand. You worry about upsetting other people around you. It bothers you to think that your request, your needs could be a bother to someone else.
 
@@ -31,7 +35,9 @@ What’s the worst they can say? “No”?
 
 If you aren’t willing to ask others for help when you need it, you are going to be left carrying everything on your own shoulders. Why would you do everything by yourself, be forced to find your own out of the way solution to your problems, when a simple question, a plea for help can have it possibly solved so much quicker?
 
+<br>
 <hr>
+<br>
 
 A 2008 study by US National Library of Medicine found that we as people are far too pessimistic when it comes to the success of asking:
 
@@ -39,7 +45,9 @@ A 2008 study by US National Library of Medicine found that we as people are far 
 
 Why are we so afraid, so determined that everyone is out to refuse us? As people, we cannot and should not get hung up on the idea that others don’t want to help us. We should want to help others, and at least hope that others want to help us.
 
+<br>
 <hr>
+<br>
 
 The difference between being spoiled and being someone who is willing to ask for help, is that simple question. By asking that question, Brooklynn was showing that she wasn’t spoiled brat who expects everything to be done for her, but a polite girl who is willing to ask for help when she feels she needs it.
 
