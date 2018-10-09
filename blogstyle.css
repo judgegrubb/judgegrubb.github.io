@@ -43,3 +43,7 @@ p a:hover, li a:hover {
 	color: #000;
 	text-decoration: none;
 }
+
+hr {
+	width: 40%;
+}
