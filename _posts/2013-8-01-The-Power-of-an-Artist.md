@@ -18,6 +18,7 @@ We are all contributing in one way. We all have to power to effect other's lives
 One of my favorite artists once said:
 
 >See life's a beautiful struggle, I record it
+>
 >Hope it helps you maneuvering through yours
 
 Whatever our medium is, this is all we can do before we become an artist.
