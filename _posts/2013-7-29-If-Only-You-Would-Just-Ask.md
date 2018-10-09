@@ -3,7 +3,7 @@ layout: post
 title: If Only You Would Just Ask
 ---
 
-*This post originally appeared on Medium. It has now been moved here.*
+*October 9, 2018: This post originally appeared on Medium. It has now been moved here.*
 
 I adore my little 3-year old cousin Brooklynn. She has me wrapped around her little finger. She’s an adorable girl, and I’d do anything for her, but today I learned an important lesson from her.
 
