@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://www.elijahgrubb.com/</loc>
+  <lastmod>2018-10-09T11:40:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/elijahgrubbcv.pdf</loc>
+  <lastmod>2018-10-09T11:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/ElijahGrubbResume.pdf</loc>
+  <lastmod>2018-10-09T11:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/papers/cset18-preprint.pdf</loc>
+  <lastmod>2018-10-09T11:40:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2018/02/05/tcsh-and-alpine-linux-bug/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2017/11/08/Alpine-Package-Names/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2017/03/30/Some-Thoughts-On-New-Site/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2017/03/29/On-Rejection/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2015/09/16/Microsoft-Interview/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2015/10/02/Gitignore-Global/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2015/09/08/Testing-Class-Libraries/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2015/09/07/Hello-World/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2013/08/01/The-Power-of-an-Artist/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.elijahgrubb.com/blog/2013/07/29/If-Only-You-Would-Just-Ask/</loc>
+  <lastmod>2018-10-09T11:40:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
