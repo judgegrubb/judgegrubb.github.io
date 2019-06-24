@@ -134,3 +134,11 @@ h4, h5, h6 {
 .table th, .table td {
 	padding: 8px !important;
 }
+
+.nobold {
+	font-weight: normal;
+}
+
+.tabbedtext {
+	margin-left: 20px;
+}
