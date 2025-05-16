@@ -29,9 +29,11 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#other">Other</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#personal">Personal</a></li>
@@ -47,12 +49,15 @@
                         Elijah
                         <span class="text-primary">Grubb</span>
                     </h1>
+                    <h3 class="mb-0">🔐 Cryptography & Systems Engineer</h3>
                     <div class="subheading mb-5">
-                        <a href="mailto:ElijahLGrubb@gmail.com">ElijahLGrubb@gmail.com</a> · (801) 786-9886 · He/Him
+                        <a href="mailto:ElijahLGrubb@gmail.com">ElijahLGrubb@gmail.com</a> · He/Him
                     </div>
-                    <p class="lead">I am a software engineer and cryptographic researcher currently building the cryptography library for the Unisys MCP operating system. In the past, I've worked on cryptographic theory and implementation at the Maryland Cybersecurity Center, SRI International, and the IMDEA Software Institute. I also have software engineering experience with Qualtrics and Goldman Sachs. </p>
+                    <p class="lead">I’m a privacy- and performance-oriented software engineer with a strong foundation in applied cryptography, operating systems, and secure system design. I spent three years as a PhD researcher, exploring privacy-preserving computation, zero-knowledge proof systems, and consensus protocols, before transitioning full-time into engineering roles focused on cryptographic infrastructure.</p>
+                    <p class="lead">At Unisys, I worked on OS-level TLS 1.3 implementation, internal certificate authority infrastructure, and CI/CD pipeline hardening. I'm fluent in Rust, C/C++, and Go, and passionate about building secure-by-design systems—especially in domains like encrypted search, vector databases, and secure ML pipelines. </p>
+                    <p class="lead">I'm now focused on applying my cryptography and systems skills to problems in modern data infrastructure: secure query engines, privacy-preserving analytics, and next-gen databases for AI workloads.</p>
+                    <p class="lead">💡 Always happy to connect with other engineers, researchers, or founders working at the intersection of privacy, performance, and systems innovation.</p>
 
-                    <p class="lead mb-5">I program primarily in Rust, C, and NEWP/Algol and in the past I worked on large projects in Python, Java, JavaScript, and C++. I'm interested in best practices, engineering, and research involving systems, security, and cryptography.</p> 
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/elijahgrubb/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/judgegrubb"><i class="fab fa-github"></i></a>
@@ -61,19 +66,31 @@
                 </div>
             </section>
             <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Technical Skills</h2>
+                    <p class="lead"><span class="fw-bold">Languages:</span> Rust, C, C++, Go, SQL, Python, Bash</p>
+                    <p class="lead"><span class="fw-bold">Systems:</span> Linux internals, TLS, PKI, socket programming, concurrent programming, secure boot</p>
+                    <p class="lead"><span class="fw-bold">Crypto/Privacy:</span> TLS 1.3, certificate authorities, secure multiparty computation</p>
+                    <p class="lead"><span class="fw-bold">Infra & Databases:</span> SQLite, MongoDB, PostgreSQL, CI/CD, Docker, GitHub Actions</p>
+                    <p class="lead"><span class="fw-bold">Research Areas:</span> Encrypted search, zero-knowledge proofs, performance-tuned cryptographic primitives</p>
+                </div>
+            </section>
+            <hr class="m-0" />
             <!-- Experience-->
             <section class="resume-section" id="experience">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
+                    <h2 class="mb-5">Professional Experience</h2>
 		            <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">System Software Engineer</h3>
                             <div class="subheading mb-3 fs-4">Unisys, <span class="fw-normal fs-5">Remote, Salt Lake City, UT</span></div>
 			                <ul>
-                            	<li>Implement and maintain OS support for network security protocols, participating in code reviews as a part of the distributed Cryptography and Security teams.</li>
-			    	            <li>Mentor junior engineers, using pair programming to collaborate and teach.</li>
-			    	            <li>Set up 6 internal Certificate Authorities for integration testing.</li>
-			    	            <li>Debug client errors and bugs, update documentation and unit test suite.</li>
+                            	<li>Engineered OS cryptographic libraries, enhancing TLS 1.3 performance.</li>
+			    	            <li>Deployed 6 internal Certificate Authorities, integrating certificate handling.</li>
+			    	            <li>Improved cryptographic code reliability in mission-critical systems.</li>
+			    	            <li>Championed CI/CD modernization with SBOM integration and reproducible builds.</li>
 			                </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">October 2021 - Present</span></div>
@@ -83,8 +100,9 @@
                           <h3 class="mb-0">Graduate Research Assistant</h3>
                             <div class="subheading mb-3 fs-4">University of Maryland, <span class="fw-normal fs-5">College Park, MD</span></div>
 			                <ul>
-                                <li>Prototyped new consensus protocols for experimentation under realistic network conditions with custom network testing framework in Rust.</li>
-			                    <li>Researched practical zero-knowledge proof system design with a focus on optimal prover efficiency as a part of the Maryland Cybersecurity Center.</li>
+                                <li>Developed new consensus protocol prototypes in Rust, tested under adversarial network conditions.</li>
+                                <li>Conducted applied cryptography research at the Maryland Cybersecurity Center.</li>
+                                <li>Contributed to academic publications and internal tooling for cryptographic experimentation.</li>
 			                 </ul>
 			            </div>
                         <div class="flex-shrink-0"><span class="text-primary">May 2019 - May 2021</span></div>
@@ -94,7 +112,8 @@
                             <h3 class="mb-0">Graduate Research Intern</h3>
                             <div class="subheading mb-3 fs-4">SRI International, <span class="fw-normal fs-5">Remote, Menlo Park, CA</span></div>
 			                <ul>
-			                    <li>Designed and built Rust tool for messaging between different zero-knowledge proof libraries for modular integration as a remote researcher. </li>
+			                    <li>Prototyped modular Rust-based integration layer for zero-knowledge proof libraries.</li>
+                                <li>Improved extensibility of ZK systems through low-level refactoring and benchmarking</li>
 			                </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">June 2020 - August 2020</span></div>
@@ -104,7 +123,8 @@
                             <h3 class="mb-0">Visiting PhD Student</h3>
                             <div class="subheading mb-3 fs-4">IMDEA Software Institute, <span class="fw-normal fs-5">Madrid, Spain</span></div>
 			                <ul>
-                                <li>Implementation and research into 4x speed-up of zero-knowledge proof generation systems.</li>
+                                <li>Co-developed high-performance proof generation stack for privacy-preserving computation</li>
+                                <li>Translated cryptographic protocols into performant specifications, achieving 4× prover speedup</li>
 			                </ul>
 			            </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2019 - December 2019</span></div>
@@ -163,97 +183,64 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                           <h3 class="mb-0">University of Maryland, <span class="fw-normal fs-4">College Park, MD</span></h3>
-                            <div class="subheading mb-3">Ph.D. Student in Computer Science, no degree received</div>
-                            <p><span class="fst-italic">Course Highlights</span>: Computer and Network Security, 
-                              Applied Cryptography and Hostile Governments, Computer Networks, Secure Distributed Computation.</p>
+                            <div class="subheading mb-3">Ph.D. Candidate in Computer Science</div>
+                            <p><span class="fst-italic">Focus</span>: Applied Cryptography, Secure Distributed Systems, Zero-Knowledge Protocols.</p>
+                            <p><span class="fst-italic">Course Highlights</span>: Computer and Network Security, Applied Crypto, Computer Networks, 
+                                Secure Distributed Computation, Cryptography Research Seminar.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2018 - 2021</span></div>
+                        <div class="flex-shrink-0"><span class="subheading text-primary">2018 - 2021,</span><br><span class="text-primary">(no degree)</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
                           <h3 class="mb-0">University of Utah, <span class="fw-normal fs-4">Salt Lake City, UT</span></h3>
                             <div class="subheading mb-3">B.Sc. in Computer Science</div>
-                            <p><span class="fst-italic">Course Highlights</span>: Software Verification, Distributed Systems, 
-                              Number Theory, Advanced Operating Systems, Database Systems, Data Mining.</p>
+                            <p><span class="fst-italic">Course Highlights</span>: Advanced Operating Systems, Database Systems, Software Verification, 
+                                Distributed Systems, Number Theory, Data Mining.</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2014 - 2018</span></div>
+                        <div class="flex-shrink-0"><span class="subheading text-primary">2014 - 2018</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3 fs-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-rust"></i></li>
-                        <li class="list-inline-item"><i>C</i></i>
-                        <li class="list-inline-item"><i class="fab fa-python"></i></i>
-                        <li class="list-inline-item"><i class="">Algol</i></li>
-                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
-                        <li class="list-inline-item"><i class="">C++</i></i>
-                        <li class="list-inline-item"><i class="">SQL</i></li>
-                    </ul>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-ethereum"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-docker"></i></li>
-                        <li class="list-inline-item"><i class="">Vim</i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-apple"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-windows"></i></li>
-                    </ul>
-                    <div class="subheading mb-3 fs-3">Expertise & Interests</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Applied Cryptography
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Computer Security
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Privacy
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Authentication
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Cryptographic Review
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Cryptocurrencies
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Zero-Knowledge Systems
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Public Key Infrastructure
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Automated Testing
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Database Design
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
-                            Code Review
-                        </li>
-                    </ul>
+                    <h2 class="mb-5">Research & Projects</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                          <h3 class="mb-0">Project Name, <span class="fw-normal fs-5">Additional Project Info</span></h3>
+                            <div class="subheading mb-3">Project Subheading</div>
+                            <p>A short and pithy description of the project.</p>
+                        </div>
+                        <div class="flex-shrink-0 text-right"><span class="subheading text-primary">Link to Project</span><br><span class="text-primary">additional link info</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                          <h3 class="mb-0">blind-insight-rs, <span class="fw-normal fs-5">(Rust Prototype)</span></h3>
+                            <div class="subheading mb-3">Project Subheading</div>
+                            <p>A short and pithy description of the project.</p>
+                        </div>
+                        <div class="flex-shrink-0 text-right"><span class="subheading text-primary"><a href="https://github.com/judgegrubb/blind-insight-rs">GitHub Repo</a></span><br><span class="text-primary"><a href="https://docs.blindinsight.io">Blind Insight Docs</a></span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                          <h3 class="mb-0">zk-Rust, <span class="fw-normal fs-5">(SRI Research)</span></h3>
+                            <div class="subheading mb-3">Modular ZK Proof Integration Layer</div>
+                            <p>Built FFI-compatible toolkit for ZKP libraries into larger stacks.</p>
+                        </div>
+                        <div class="flex-shrink-0 text-right"><span class="subheading text-primary"></span><br><span class="text-primary"></span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests -->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p class="lead">Privacy-preserving databases, <br>
+                        Secure and encrypted search (PIR, FHE, ORAM), <br>
+                        Operating systems and database internals, <br>
+                        Applied cryptography in AI infra and data systems.</p>
                 </div>
             </section>
             <hr class="m-0" />
@@ -375,9 +362,7 @@
                       I love watching basketball and soccer, and playing pickleball and tennis.
                       I enjoy reading sci-fi, fantasy, and biographies, as well as the latest cryptography research papers.</p> 
                       
-                    <p class="mb-0">Recently I've gotten into video games as a way to spend time with 
-                      friends and family in other time zones. 
-                      I'm easily nerd-sniped and have an unhealthy addiction to finding answers to unimportant questions.</p>
+                    <p class="mb-0">I'm easily nerd-sniped and have an unhealthy addiction to finding answers to unimportant questions.</p>
 
                 </div>
             </section>
